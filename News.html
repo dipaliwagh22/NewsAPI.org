@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News-API-Org</title>
+    <link rel="stylesheet" href="News.css">
+</head>
+<body>
+    <div class="heading">
+        <label><span>N</span>ewsAPI</label>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 61 62" fill="none">
+            <circle cx="30.499" cy="31" r="30.1" fill="#E84848" />
+        </svg>
+        <label>Org</label>
+    </div>
+    <hr>
+    <hr>
+    <div class="search-bar flex">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input id="search-text" type="text" class="news-input" placeholder="Search">
+        <button id="search-button" class="search-button">GO</button>
+    </div>
+    <div class="container">
+        <section id="newsSection">
+            <h2 id="mainHeading">Top News From India</h2>
+            <div id="newsContainer"></div>
+        </section>
+    </div>
+    <script src="News.js"></script>
+</body>
+</html>
