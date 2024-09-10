@@ -163,7 +163,7 @@ article .content {
 }
 
 article .content h2 {
-    color: black; /* Updated to ensure headings are black */
+    color: black; 
     font-family: "Inknut Antiqua", serif;
     font-size: 18px;
     font-weight: 600;
